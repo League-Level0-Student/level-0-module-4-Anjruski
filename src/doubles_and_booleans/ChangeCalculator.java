@@ -29,6 +29,7 @@ double money = numNickels * .05 + numDimes * .10 + numQuarters * .25;
 
 		// Tell the user how much money they have
 JOptionPane.showMessageDialog(null, "You have " + money);
+JOptionPane.showMessageDialog(null, "Now here is your sandwitch. ;)");
 	}
 }
 
