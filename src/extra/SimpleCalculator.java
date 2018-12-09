@@ -10,7 +10,7 @@ public class SimpleCalculator {
 
 		// 2. Customize pop-up to support add/subtract/multiply/divide operations.
 		int operation = JOptionPane.showOptionDialog(null, "The question", "Pop-up Title", 0,
-				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Button1", "Button2", "Button3", "Button3" },
+				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Button1", "Button2", "Button3", "Button4" },
 				null);
 
 		// 5. Call the methods created in steps 3 and 4 to perform the appropriate operation.

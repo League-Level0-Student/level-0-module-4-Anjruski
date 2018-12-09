@@ -24,7 +24,9 @@ public static void main(String[] args) {
 	else if (scoreint <60) {
 		JOptionPane.showMessageDialog(null, "Oh no! That is an F!");
 	}
-	
+	else if (scoreint == 100) {
+		JOptionPane.showMessageDialog(null, "Congratulations! You aced it! A+!");
+	}
 	
 	
 	
